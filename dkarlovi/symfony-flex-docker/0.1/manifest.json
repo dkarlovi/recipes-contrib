@@ -1,6 +1,6 @@
 {
     "copy-from-package": {
-        ".infra": ".infra",
+        ".infra/": ".infra",
         ".dockerignore": ".dockerignore",
         "docker-compose.yaml": "docker-compose.yaml"
     },
