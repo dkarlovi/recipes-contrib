@@ -12,7 +12,7 @@
         "DATABASE_PORT": "3306",
         "DATABASE_NAME": "symfony",
         "DATABASE_USER": "symfony",
-        "DATABASE_PASSWORD": "ThisPasswordIsNotSetChangeIt",
-        "DATABASE_ROOT_PASSWORD": "ThisPasswordIsNotSetChangeIt"
+        "DATABASE_PASSWORD": "%generate(secret)%",
+        "DATABASE_ROOT_PASSWORD": "%generate(secret)%"
     }
 }
