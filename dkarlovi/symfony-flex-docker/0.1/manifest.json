@@ -3,5 +3,16 @@
         ".infra": ".infra",
         ".dockerignore": ".dockerignore",
         "docker-compose.yaml": "docker-compose.yaml"
+    },
+    "env": {
+        "COMPOSE_PROJECT_NAME": "symfony",
+        "CACHE_HOST": "cache",
+        "CACHE_PORT": 6379,
+        "DATABASE_HOST": "db",
+        "DATABASE_PORT": 3306,
+        "DATABASE_NAME": "symfony",
+        "DATABASE_USER": "symfony",
+        "DATABASE_PASSWORD": "ThisPasswordIsNotSetChangeIt",
+        "DATABASE_ROOT_PASSWORD": "ThisPasswordIsNotSetChangeIt"
     }
 }
