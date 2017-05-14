@@ -6,5 +6,7 @@
     1. Change to the project directory
     2. Execute the <comment>make docker-start</> command;
     3. Browse to the <comment>http://localhost:8080/</> URL.
+    4. Access the MySQL instance on <comment>http://localhost:33066/</>
+       (with credentials from <comment>.env</>)
 
   * <fg=blue>Read</> the documentation at <comment>https://symfony.com/doc</>
